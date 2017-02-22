@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "name": "mongery/platform",
+    "description": "",
+    "keywords": ["framework", "laravel", "mongery", "mongery-platform"],
     "license": "MIT",
     "type": "project",
     "require": {
