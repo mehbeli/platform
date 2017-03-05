@@ -170,6 +170,7 @@ return [
 
         /* Mongery Service Providers */
         Yajra\Acl\AclServiceProvider::class,
+        Mongery\Admin\AdminServiceProvider::class,
 
         /*
          * Application Service Providers...
