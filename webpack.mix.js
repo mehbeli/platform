@@ -12,4 +12,5 @@ const { mix } = require('laravel-mix');
  */
 
 mix.js('resources/assets/js/app.js', 'public/js')
+   .js('packages/mongery/admin/src/assets/js/mongery-admin.js', 'public/mongery/admin/js/mongery-admin.js')
    .sass('resources/assets/sass/app.scss', 'public/css');
