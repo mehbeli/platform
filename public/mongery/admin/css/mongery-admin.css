@@ -12,8 +12,8 @@ body {
 }
 
 .navbar-inverse {
-    background-color: rgba(33,33,33 ,1);
-    border-bottom: rgba(66,66,66 ,1);
+    background-color: rgba(38,50,56 ,1);
+    border-bottom: rgba(38,50,56 ,1);
 }
 
 .navbar-inverse a {
@@ -46,6 +46,15 @@ body {
     border-right: 1px solid rgba(97,97,97 ,1);
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.top-bar-page {
+    background-color: rgba(55,71,79 ,1);
+    color: rgba(207,216,220 ,1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
 }
 
 /* navbar collapse */
@@ -132,11 +141,95 @@ body {
     }
 
     .dropdown ul.dropdown-usermenu .user-header {
-        background-color: rgba(41,182,246 ,1);
         padding-top: 10px;
-        padding-bottom: 10px;
         font-weight: bold;
-        color: #FFF;
+        color: #039BE5;
     }
 
+    .dropdown .active {
+        border-left: 3px solid #29B6F6;
+    }
+
+}
+
+/* For table */
+.loading-table {
+    position: absolute;
+    background: #FFF;
+    border: 1px solid rgba(224,224,224 ,1);
+    padding: 10px 20px;
+    border-radius: 4px;
+    right: 30px;
+    font-weight: bold;
+    color: rgba(97,97,97 ,1)
+}
+
+.paginationInfo {
+    height: 36px;
+    vertical-align: middle;
+    line-height: 36px;
+}
+
+.pagination {
+    margin: 0 !important;
+}
+
+/* Mongery BUttons Colors */
+.btn {
+    border: 0;
+}
+
+.btn-success,
+.btn-success:active,
+.btn-success:focus, {
+    background-color: rgba(46,125,50 ,1) !important;
+}
+
+.btn-success:hover {
+    /* background-color: rgba(76,175,80 ,1) !important; */
+}
+
+.btn-default-top {
+    background: #FFF !important;
+    color: rgba(66,66,66 ,1) !important;
+}
+.btn-default-top:hover {
+    background: rgba(224,224,224 ,1) !important;
+    color: rgba(66,66,66 ,1) !important;
+}
+
+.btn-default {
+    background: #9E9E9E !important;
+    color: #FFF !important;
+}
+.btn-default:hover {
+    background: #757575 !important;
+    color: #FFF !important;
+}
+
+/* badge-fix */
+@media (min-width: 768px) {
+    .pull-fix {
+        margin-top: 2px;
+    }
+}
+
+@media (max-width: 768px) {
+    .top-bar-page {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.sales-color > .badge {
+    background: #e53935;
+}
+
+.btn-margin-fix {
+    margin-top: -5px;
+}
+
+.padding-left-right-fix {
+    padding-right: 15px;
+    padding-left: 15px;
 }
