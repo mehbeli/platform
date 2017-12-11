@@ -9602,6 +9602,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__router__ = __webpack_require__(44);
 
 
+Vue.component('topbar', __webpack_require__(79));
+
 var app = new Vue({
     el: '#app',
     router: __WEBPACK_IMPORTED_MODULE_0__router__["a" /* default */]
@@ -10466,6 +10468,42 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = {
     mounted: function mounted() {
@@ -10479,6 +10517,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
 //
 //
 //
@@ -10529,6 +10568,57 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vuetable_2_src_components_VuetablePagination___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_vuetable_2_src_components_VuetablePagination__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vuetable_2_src_components_VuetablePaginationInfo__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vuetable_2_src_components_VuetablePaginationInfo___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_vuetable_2_src_components_VuetablePaginationInfo__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -10884,7 +10974,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "c:\\laragon\\www\\Mongery\\node_modules\\vuetable-2\\src\\components\\Vuetable.vue"
+Component.options.__file = "C:\\laragon\\www\\Mongery\\node_modules\\vuetable-2\\src\\components\\Vuetable.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Vuetable.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -10918,7 +11008,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "c:\\laragon\\www\\Mongery\\node_modules\\vuetable-2\\src\\components\\VuetablePagination.vue"
+Component.options.__file = "C:\\laragon\\www\\Mongery\\node_modules\\vuetable-2\\src\\components\\VuetablePagination.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] VuetablePagination.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -10952,7 +11042,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "c:\\laragon\\www\\Mongery\\node_modules\\vuetable-2\\src\\components\\VuetablePaginationInfo.vue"
+Component.options.__file = "C:\\laragon\\www\\Mongery\\node_modules\\vuetable-2\\src\\components\\VuetablePaginationInfo.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] VuetablePaginationInfo.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -10986,7 +11076,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "c:\\laragon\\www\\Mongery\\node_modules\\vuetable-2\\src\\components\\VuetablePaginationInfoMixin.vue"
+Component.options.__file = "C:\\laragon\\www\\Mongery\\node_modules\\vuetable-2\\src\\components\\VuetablePaginationInfoMixin.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 
 /* hot reload */
@@ -11019,7 +11109,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "c:\\laragon\\www\\Mongery\\node_modules\\vuetable-2\\src\\components\\VuetablePaginationMixin.vue"
+Component.options.__file = "C:\\laragon\\www\\Mongery\\node_modules\\vuetable-2\\src\\components\\VuetablePaginationMixin.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 
 /* hot reload */
@@ -11052,7 +11142,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "c:\\laragon\\www\\Mongery\\packages\\mongery\\admin\\src\\views\\vue\\Dashboard.vue"
+Component.options.__file = "C:\\laragon\\www\\Mongery\\packages\\mongery\\admin\\src\\views\\vue\\Dashboard.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Dashboard.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -11086,7 +11176,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "c:\\laragon\\www\\Mongery\\packages\\mongery\\admin\\src\\views\\vue\\Setting.vue"
+Component.options.__file = "C:\\laragon\\www\\Mongery\\packages\\mongery\\admin\\src\\views\\vue\\Setting.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Setting.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -11120,7 +11210,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "c:\\laragon\\www\\Mongery\\packages\\mongery\\admin\\src\\views\\vue\\products\\Product.vue"
+Component.options.__file = "C:\\laragon\\www\\Mongery\\packages\\mongery\\admin\\src\\views\\vue\\products\\Product.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Product.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -11154,7 +11244,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "c:\\laragon\\www\\Mongery\\packages\\mongery\\admin\\src\\views\\vue\\settings\\Account.vue"
+Component.options.__file = "C:\\laragon\\www\\Mongery\\packages\\mongery\\admin\\src\\views\\vue\\settings\\Account.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Account.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -11188,7 +11278,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "c:\\laragon\\www\\Mongery\\packages\\mongery\\admin\\src\\views\\vue\\settings\\Log.vue"
+Component.options.__file = "C:\\laragon\\www\\Mongery\\packages\\mongery\\admin\\src\\views\\vue\\settings\\Log.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Log.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -11222,7 +11312,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "c:\\laragon\\www\\Mongery\\packages\\mongery\\admin\\src\\views\\vue\\settings\\Profile.vue"
+Component.options.__file = "C:\\laragon\\www\\Mongery\\packages\\mongery\\admin\\src\\views\\vue\\settings\\Profile.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Profile.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -11646,7 +11736,11 @@ if (false) {
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "row"
-  }, [_vm._m(0), _vm._v(" "), _c('div', {
+  }, [_c('topbar', {
+    attrs: {
+      "title": "Settings"
+    }
+  }), _vm._v(" "), _c('div', {
     staticClass: "col-md-10 col-md-offset-1"
   }, [_c('div', {
     staticClass: "row"
@@ -11682,16 +11776,8 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "panel panel-default"
   }, [_c('div', {
     staticClass: "panel-body"
-  }, [_c('router-view')], 1)])])])])])
-},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "top-bar-page"
-  }, [_c('div', {
-    staticClass: "col-md-10 col-md-offset-1"
-  }, [_c('h4', [_vm._v("Settings")])]), _vm._v(" "), _c('div', {
-    staticClass: "clearfix"
-  })])
-}]}
+  }, [_c('router-view')], 1)])])])])], 1)
+},staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
@@ -11748,58 +11834,71 @@ if (false) {
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "row"
-  }, [_vm._m(0), _vm._v(" "), _c('div', {
+  }, [_c('topbar', {
+    attrs: {
+      "title": "Products"
+    }
+  }), _vm._v(" "), _vm._m(0)], 1)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
     staticClass: "col-md-10 col-md-offset-1"
   }, [_c('div', {
     staticClass: "row"
   }, [_c('div', {
-    staticClass: "col-md-12"
+    staticClass: "col-lg-3 col-md-6 col-sm-6 col-xs-12"
   }, [_c('div', {
-    staticClass: "panel panel-default"
+    staticClass: "panel panel-default panel-pending card-height-product"
   }, [_c('div', {
     staticClass: "panel-body"
-  }, [(_vm.loadingProperty.loading) ? _c('div', {
-    staticClass: "loading-table"
-  }, [_c('span', {
-    staticClass: "fa fa-spinner fa-fw fa-spin fa-lg"
-  }), _vm._v(_vm._s(_vm.loadingProperty.loadingText))]) : _vm._e(), _vm._v(" "), _c('vuetable', {
-    ref: "vuetable",
-    attrs: {
-      "api-url": "/test-dt",
-      "fields": _vm.fields,
-      "pagination-path": ""
-    },
-    on: {
-      "vuetable:pagination-data": _vm.onPaginationData,
-      "vuetable:loaded": _vm.onLoaded
-    }
-  }), _vm._v(" "), _c('div', [_c('vuetable-pagination-info', {
-    ref: "paginationInfo",
-    attrs: {
-      "info-class": "pull-left paginationInfo"
-    }
-  }), _vm._v(" "), _c('vuetable-pagination', {
-    ref: "pagination",
-    attrs: {
-      "css": _vm.cssPagination,
-      "icons": _vm.cssIcons
-    },
-    on: {
-      "vuetable-pagination:change-page": _vm.onChangePage
-    }
-  })], 1)], 1)])])])])])
-},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "top-bar-page"
   }, [_c('div', {
-    staticClass: "col-md-10 col-md-offset-1"
-  }, [_c('h4', [_vm._v("Products "), _c('button', {
-    staticClass: "btn btn-sm btn-success pull-right btn-margin-fix"
+    staticClass: "card-value"
+  }, [_c('div', {
+    staticClass: "this-value"
   }, [_c('i', {
-    staticClass: "fa fa-plus fa-fw"
-  }), _vm._v(" Add New Product")])])]), _vm._v(" "), _c('div', {
-    staticClass: "clearfix"
-  })])
+    staticClass: "fa fa-arrow-up fa-fw"
+  }), _vm._v("19")]), _vm._v(" "), _c('div', {
+    staticClass: "card-title"
+  }, [_vm._v("\n                                    Pending Order\n                                ")]), _vm._v(" "), _c('div', {
+    staticClass: "card-foot-note"
+  }, [_vm._v("From 21 January 2017")])])])])]), _vm._v(" "), _c('div', {
+    staticClass: "col-lg-3 col-md-6 col-sm-6 col-xs-12"
+  }, [_c('div', {
+    staticClass: "panel panel-default panel-sales card-height"
+  }, [_c('div', {
+    staticClass: "panel-body"
+  }, [_c('div', {
+    staticClass: "card-value"
+  }, [_c('div', {
+    staticClass: "this-value"
+  }, [_vm._v("$9,345")]), _vm._v(" "), _c('div', {
+    staticClass: "card-title"
+  }, [_vm._v("\n                                    Monthly Sales\n                                ")]), _vm._v(" "), _c('div', {
+    staticClass: "card-foot-note"
+  }, [_vm._v("November 2017")])])])])]), _vm._v(" "), _c('div', {
+    staticClass: "col-lg-3 col-md-6 col-sm-6 col-xs-12"
+  }, [_c('div', {
+    staticClass: "panel panel-default card-height"
+  }, [_c('div', {
+    staticClass: "panel-body"
+  }, [_c('div', {
+    staticClass: "card-title"
+  }, [_vm._v("Pending Order")]), _vm._v(" "), _c('div', {
+    staticClass: "card-value"
+  }, [_vm._v("19")]), _vm._v(" "), _c('div', {
+    staticClass: "card-foot-note"
+  }, [_vm._v("From 21 January 2017")])])])]), _vm._v(" "), _c('div', {
+    staticClass: "col-lg-3 col-md-6 col-sm-6 col-xs-12"
+  }, [_c('div', {
+    staticClass: "panel panel-default card-height"
+  }, [_c('div', {
+    staticClass: "panel-body"
+  }, [_c('div', {
+    staticClass: "card-title"
+  }, [_vm._v("Pending Order")]), _vm._v(" "), _c('div', {
+    staticClass: "card-value"
+  }, [_vm._v("19")]), _vm._v(" "), _c('div', {
+    staticClass: "card-foot-note"
+  }, [_vm._v("From 21 January 2017")])])])])])])
 }]}
 module.exports.render._withStripped = true
 if (false) {
@@ -11814,25 +11913,73 @@ if (false) {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _vm._m(0)
-},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "row"
-  }, [_c('div', {
-    staticClass: "top-bar-page"
-  }, [_c('div', {
+  }, [_c('topbar', {
+    attrs: {
+      "title": "Dashboard"
+    }
+  }), _vm._v(" "), _vm._m(0)], 1)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
     staticClass: "col-md-10 col-md-offset-1"
-  }, [_c('h4', [_vm._v("Dashboard")])]), _vm._v(" "), _c('div', {
-    staticClass: "clearfix"
-  })]), _vm._v(" "), _c('div', {
-    staticClass: "col-md-10 col-md-offset-1"
   }, [_c('div', {
-    staticClass: "panel panel-default"
+    staticClass: "row"
   }, [_c('div', {
-    staticClass: "panel-heading"
-  }, [_vm._v("Example Component")]), _vm._v(" "), _c('div', {
+    staticClass: "col-lg-3 col-md-6 col-sm-6 col-xs-12"
+  }, [_c('div', {
+    staticClass: "panel panel-default panel-pending card-height"
+  }, [_c('div', {
     staticClass: "panel-body"
-  }, [_vm._v("\n                I'm an example component kunitsfasfsafff!\n            ")])])])])
+  }, [_c('div', {
+    staticClass: "card-value"
+  }, [_c('div', {
+    staticClass: "this-value"
+  }, [_c('i', {
+    staticClass: "fa fa-arrow-up fa-fw"
+  }), _vm._v("19")]), _vm._v(" "), _c('div', {
+    staticClass: "card-title"
+  }, [_vm._v("\n                                Pending Order\n                            ")]), _vm._v(" "), _c('div', {
+    staticClass: "card-foot-note"
+  }, [_vm._v("From 21 January 2017")])])])])]), _vm._v(" "), _c('div', {
+    staticClass: "col-lg-3 col-md-6 col-sm-6 col-xs-12"
+  }, [_c('div', {
+    staticClass: "panel panel-default panel-sales card-height"
+  }, [_c('div', {
+    staticClass: "panel-body"
+  }, [_c('div', {
+    staticClass: "card-value"
+  }, [_c('div', {
+    staticClass: "this-value"
+  }, [_vm._v("$9,345")]), _vm._v(" "), _c('div', {
+    staticClass: "card-title"
+  }, [_vm._v("\n                                Monthly Sales\n                            ")]), _vm._v(" "), _c('div', {
+    staticClass: "card-foot-note"
+  }, [_vm._v("November 2017")])])])])]), _vm._v(" "), _c('div', {
+    staticClass: "col-lg-3 col-md-6 col-sm-6 col-xs-12"
+  }, [_c('div', {
+    staticClass: "panel panel-default card-height"
+  }, [_c('div', {
+    staticClass: "panel-body"
+  }, [_c('div', {
+    staticClass: "card-title"
+  }, [_vm._v("Pending Order")]), _vm._v(" "), _c('div', {
+    staticClass: "card-value"
+  }, [_vm._v("19")]), _vm._v(" "), _c('div', {
+    staticClass: "card-foot-note"
+  }, [_vm._v("From 21 January 2017")])])])]), _vm._v(" "), _c('div', {
+    staticClass: "col-lg-3 col-md-6 col-sm-6 col-xs-12"
+  }, [_c('div', {
+    staticClass: "panel panel-default card-height"
+  }, [_c('div', {
+    staticClass: "panel-body"
+  }, [_c('div', {
+    staticClass: "card-title"
+  }, [_vm._v("Pending Order")]), _vm._v(" "), _c('div', {
+    staticClass: "card-value"
+  }, [_vm._v("19")]), _vm._v(" "), _c('div', {
+    staticClass: "card-foot-note"
+  }, [_vm._v("From 21 January 2017")])])])])])])
 }]}
 module.exports.render._withStripped = true
 if (false) {
@@ -15955,6 +16102,128 @@ module.exports = function listToStyles (parentId, list) {
 
 module.exports = __webpack_require__(12);
 
+
+/***/ }),
+/* 78 */,
+/* 79 */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+/* styles */
+__webpack_require__(83)
+
+var Component = __webpack_require__(1)(
+  /* script */
+  __webpack_require__(80),
+  /* template */
+  __webpack_require__(81),
+  /* scopeId */
+  "data-v-64b86c52",
+  /* cssModules */
+  null
+)
+Component.options.__file = "C:\\laragon\\www\\Mongery\\packages\\mongery\\admin\\src\\views\\vue\\partials\\Topbar.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] Topbar.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-64b86c52", Component.options)
+  } else {
+    hotAPI.reload("data-v-64b86c52", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 80 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = {
+    props: ['title']
+};
+
+/***/ }),
+/* 81 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "top-bar-page"
+  }, [_c('div', {
+    staticClass: "col-md-10 col-md-offset-1"
+  }, [_c('h5', [_vm._v(_vm._s(_vm.title))]), _vm._v(" "), _vm._t("extras")], 2), _vm._v(" "), _c('div', {
+    staticClass: "clearfix"
+  })])
+},staticRenderFns: []}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-64b86c52", module.exports)
+  }
+}
+
+/***/ }),
+/* 82 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(48)();
+// imports
+
+
+// module
+exports.push([module.i, "\nh5[data-v-64b86c52] {\n  text-transform: uppercase;\n  font-weight: 600;\n  color: #616161;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 83 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(82);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(73)("b58d8bd0", content, false);
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../../../../../node_modules/css-loader/index.js!../../../../../../../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-64b86c52&scoped=true!../../../../../../../node_modules/sass-loader/index.js!../../../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Topbar.vue", function() {
+     var newContent = require("!!../../../../../../../node_modules/css-loader/index.js!../../../../../../../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-64b86c52&scoped=true!../../../../../../../node_modules/sass-loader/index.js!../../../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Topbar.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
 
 /***/ })
 /******/ ]);

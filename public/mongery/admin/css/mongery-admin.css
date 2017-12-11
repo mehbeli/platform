@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Nunito', sans-serif;
+    background-color: rgba(250,250,250 ,1) !important;
 }
 
 .navbar {
@@ -12,7 +13,7 @@ body {
 }
 
 .navbar-inverse {
-    background-color: rgba(38,50,56 ,1);
+    background-color: rgba(33,33,33 ,1);
     border-bottom: rgba(38,50,56 ,1);
 }
 
@@ -49,8 +50,11 @@ body {
 }
 
 .top-bar-page {
-    background-color: rgba(55,71,79 ,1);
-    color: rgba(207,216,220 ,1);
+    /* background-color: rgba(38,50,56 ,1); */
+    background-color: #FFF;
+    /* color: rgba(207,216,220 ,1); */
+    color: rgba(33,33,33 ,1);
+    border-bottom: 1px solid rgba(245,245,245 ,1);
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 15px;
@@ -232,4 +236,72 @@ body {
 .padding-left-right-fix {
     padding-right: 15px;
     padding-left: 15px;
+}
+
+.card-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.card-value > .this-value {
+    padding: 2px;
+    font-size: 36px;
+}
+
+.card-value > .title-foot > .this-foot {
+    font-size: 0.8em;
+    word-wrap: break-word;
+}
+
+.card-foot-note {
+    font-size: 10px;
+     text-transform: uppercase;
+}
+
+.card-height {
+    height: 150px;
+}
+
+.card-height-product {
+    height: 230px;
+}
+
+/* panel hacks */
+.panel-pending {
+    text-align: center;
+}
+
+.panel-pending .card-value > .this-value {
+    color: rgba(229,115,115 ,1);
+}
+
+.panel-pending .card-title {
+    color: rgba(97,97,97 ,1);
+}
+
+.panel-pending .card-foot-note {
+    color: rgba(158,158,158 ,1);
+}
+
+.panel-sales {
+    text-align: center;
+}
+
+.panel-sales .card-value > .this-value {
+    color: rgba(139,195,74 ,1);
+}
+
+.panel-sales .card-title {
+    color: rgba(97,97,97 ,1);
+}
+
+.panel-sales .card-foot-note {
+    color: rgba(158,158,158 ,1);
+}
+
+/* top bar */
+.topbar-title {
+    font-size: 12px;
+    text-transform: uppercase;
 }
