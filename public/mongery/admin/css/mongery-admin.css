@@ -305,3 +305,15 @@ body {
     font-size: 12px;
     text-transform: uppercase;
 }
+
+/* masonry */
+.masonry-wrap > div {
+    display: flex;
+}
+
+.masonry-wrap .item {
+    padding: 5px;
+    margin-bottom: 20px;
+    background-color: #333;
+    color: #FFF;
+}
